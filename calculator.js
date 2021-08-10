@@ -1,0 +1,15 @@
+var num1=prompt("Enter First Number:");
+var num2=prompt("Enter Second Number:");
+num1=parseInt(num1,10);
+num2=parseInt(num2,10);
+var result;
+result= num1+num2;
+    console.log(num1 + "+" + num2 + "=" + result);
+result= num1-num2;
+    console.log(num1 + "-" + num2 + "=" + result);
+result= num1*num2;
+    console.log(num1 + "X" + num2 + "=" + result);
+result= num1/num2;
+    console.log(num1 + "/" + num2 + "=" + result);
+result= num1%num2;
+    console.log(num1 + "%" + num2 + "=" + result);

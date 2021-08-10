@@ -1,0 +1,22 @@
+<html>
+
+<head></head>
+
+<body>
+    <script>
+        function TinyName() {
+            var name = ["Rahul", "John", "Elita"]
+            var tiny = name[0];
+            for (var i = 0; i <= 3; i++) {
+                var element = name[i];
+                if (element.length < tiny.length) {
+                    tiny = element;
+                    return tiny
+                }
+            }
+        }
+        console.log(TinyName())
+    </script>
+</body>
+
+</html>

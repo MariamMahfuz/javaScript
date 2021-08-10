@@ -1,0 +1,25 @@
+<html>
+
+<head></head>
+
+<body>
+    <script>
+        function brickCalculator() {
+            var flat = parseInt(prompt("Enter The Number of Flat:"))
+            if (flat <= 10) {
+                var totalBrick = flat * 15 * 1000;
+                return totalBrick;
+            }
+            else if (flat <= 20) {
+                var totalBrick = (10 * 15 * 1000) + ((flat - 10) * 12 * 1000);
+                return totalBrick;
+            }
+            else {
+                var totalBrick = (10 * 15 * 1000) + (10 * 12 * 1000) + ((flat - 20) * 10 * 1000);
+                return totalBrick;
+            }
+        }
+        console.log(brickCalculator());
+    </script>
+</body>
+</html>
